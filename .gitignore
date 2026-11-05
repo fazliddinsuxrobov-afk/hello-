@@ -1,0 +1,32 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Django media & staticfiles & database
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.log
+
+# IDE & System files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
